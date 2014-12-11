@@ -1,0 +1,25 @@
+Getting and Cleaning Data - Course Project - Elliot Drabs - 12/11/2014
+
+This raw dataset includes the readings from 30 subjects performing 6 different activities, Laying, Sitting, Standing, Walking, Walking Downstairs, and Walking Upstairs. There are a multitude of different readings from a cellular phone, as listed below. I do not know what each of them means, but hopefully as a downstream analyst being tasked with looking at this data, you do. 
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The output tidy data set includes the means and stardard deviations from each of these readings. The included file rownames.txt corresponds with the dataset to help piece this all together. 
+
+The colunm names are arranged by Subject, and by Activity. For instance, the column heading X23.WALKING corresponds with subject #23, doing the activity of Walking. This structure applies across all the columns. 
